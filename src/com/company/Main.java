@@ -25,7 +25,7 @@ public class Main {
         try {
             //first guess
             int guess = in.nextInt();
-            System.out.println("Your guess is: " + guess + number);
+            System.out.println("Your guess is: " + guess);
             answer(number, guess);
 
             //another try
