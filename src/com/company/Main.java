@@ -10,12 +10,15 @@ public class Main {
         if (a < b){
             System.out.println("The answer is lower");
         } else if (a > b){
+            //TODO rette stavefejl
             System.out.println("The answer is higer");
         }else
             System.out.println("You guessed the number!");
         return;
     }
-
+        // TODO idé: lave de forskellige gæt i én samlet funktion.
+        // Der efter kan den afsluttes med en return eller break (kan ikke huske hvilken er mest effektiv).
+    
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         Random rdm = new Random();
